@@ -9,12 +9,14 @@
   },
   "author": "Vijay Balasubramaniam",
   "license": "GPL-3.0",
-  "dependencies": {
-    "aws-sdk": "^2.991.0"
-  },
   "devDependencies": {
     "path-browserify": "^1.0.1",
     "webpack": "^5.53.0",
     "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.32.0",
+    "@aws-sdk/client-dynamodb": "^3.32.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.32.0"
   }
 }
