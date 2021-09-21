@@ -9,3 +9,22 @@ Use this boilerplate to quickly get up and running with Google Sign In plus Cogn
 * Use AWS Javascript SDK v3 to access S3
 * Example uses profile.cloudmatica.com as the S3 bucket, which is set up with CORS and a Cloudfront distribution
 * Deployment script to publish outputs to [https://profile.cloudmatica.com](https://profile.cloudmatica.com)
+
+---
+
+### Additional Links
+[HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/)
+
+[Troublshooting Webpack Dev Server](https://stackoverflow.com/questions/49857724/webpack-dev-server-cannot-get)
+
+[Configure Google Sign In with Cognito Identity Pools](https://docs.aws.amazon.com/cognito/latest/developerguide/google.html)
+
+[AWS SDK for Javascript v3](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/index.html)
+
+[Running AWS SDK in the browser](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/getting-started-browser.html)
+
+[Configuring federated sign in](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html?icmpid=docs_iam_console)
+
+[Configuring CORS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ManageCorsUsing.html)
+
+[Converting byte array to string in Javascript](https://stackoverflow.com/questions/8936984/uint8array-to-string-in-javascript)
