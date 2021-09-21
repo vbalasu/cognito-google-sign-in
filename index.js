@@ -1,4 +1,5 @@
 async function main() {
+  // https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/loading-browser-credentials-cognito.html
   let { DynamoDBClient, ListTablesCommand } = require('@aws-sdk/client-dynamodb');
   const {CognitoIdentityClient} = require("@aws-sdk/client-cognito-identity");
   const {fromCognitoIdentityPool} = require("@aws-sdk/credential-provider-cognito-identity");
