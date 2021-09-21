@@ -28,3 +28,9 @@ Use this boilerplate to quickly get up and running with Google Sign In plus Cogn
 [Configuring CORS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ManageCorsUsing.html)
 
 [Converting byte array to string in Javascript](https://stackoverflow.com/questions/8936984/uint8array-to-string-in-javascript)
+
+[S3 - how to check if a file exists in a bucket](https://stackoverflow.com/questions/41871948/aws-s3-how-to-check-if-a-file-exists-in-a-bucket-using-bash)
+
+[AWS Cognito: Difference between Cognito ID and sub, what should I use as primary key?](https://stackoverflow.com/questions/42645932/aws-cognito-difference-between-cognito-id-and-sub-what-should-i-use-as-primary)
+
+[Amazon S3: Allows Amazon Cognito users to access objects in their bucket](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_s3_cognito-bucket.html)

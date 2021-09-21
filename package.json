@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --config webpack.config.js --hot"
+    "start": "webpack-dev-server --config webpack.config.js --hot",
+    "deploy": "./deploy.sh"
   },
   "author": "Vijay Balasubramaniam",
   "license": "GPL-3.0",
