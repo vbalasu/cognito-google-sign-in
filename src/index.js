@@ -24,7 +24,7 @@ async function afterSignIn() {
     identityPoolId: 'us-east-1:bca7d5a3-1886-4529-975a-eba315dd5793', logins: {'accounts.google.com': window.id_token}});
   const { S3Client, GetObjectCommand } = require("@aws-sdk/client-s3"); // CommonJS import
   s3 = new S3Client({region: REGION, credentials: credentials});
-  var input = {Bucket: 'cloudmatica', Key: 'profile/address.txt'}
+  var input = {Bucket: 'profile.cloudmatica.com', Key: 'deletethis.txt'}
   const command = new GetObjectCommand(input);
   response = await s3.send(command);
   data = await response.Body.getReader().read();

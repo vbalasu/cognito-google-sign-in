@@ -1,14 +1,20 @@
 // SOURCE: https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/webpack.html
 // Import path for resolving file paths
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require("path");
 module.exports = {
   // Specify the entry point for our app.
-  entry: [path.join(__dirname, "index.js")],
+  //entry: [path.join(__dirname, "index.js")],
+  entry: "./src/index.js",
   // Specify the output file containing our bundled code.
+  mode: 'development',
   output: {
-    path: __dirname,
+    path: path.resolve(__dirname, "dist"),
     filename: 'bundle.js'
   },
+  plugins: [new HtmlWebpackPlugin({
+    template: 'src/index.html'
+  })],
    // Enable WebPack to use the 'path' package.
    resolve:{
   fallback: { path: require.resolve("path-browserify")}
