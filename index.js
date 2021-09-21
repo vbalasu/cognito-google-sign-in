@@ -15,14 +15,6 @@ function signOut() {
     console.log('User signed out.');
   });
 }
-function streamToString (stream) {
-  const chunks = [];
-  return new Promise((resolve, reject) => {
-    stream.on('data', (chunk) => chunks.push(Buffer.from(chunk)));
-    stream.on('error', (err) => reject(err));
-    stream.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
-  })
-}
 async function afterSignIn() {
   const {CognitoIdentityClient} = require("@aws-sdk/client-cognito-identity");
   const {fromCognitoIdentityPool} = require("@aws-sdk/credential-provider-cognito-identity");
@@ -44,6 +36,5 @@ async function main() {
   // https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/loading-browser-credentials-cognito.html
   window.onSignIn = onSignIn;
   window.signOut = signOut;
-  window.streamToString = streamToString;
 }
 main();
