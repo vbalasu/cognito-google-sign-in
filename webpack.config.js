@@ -15,6 +15,15 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin({
     template: 'src/index.html'
   })],
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        enforce: "pre",
+        use: ["source-map-loader"],
+      },
+    ],
+  },
    // Enable WebPack to use the 'path' package.
    resolve:{
   fallback: { path: require.resolve("path-browserify")}
