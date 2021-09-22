@@ -34,3 +34,5 @@ Use this boilerplate to quickly get up and running with Google Sign In plus Cogn
 [AWS Cognito: Difference between Cognito ID and sub, what should I use as primary key?](https://stackoverflow.com/questions/42645932/aws-cognito-difference-between-cognito-id-and-sub-what-should-i-use-as-primary)
 
 [Amazon S3: Allows Amazon Cognito users to access objects in their bucket](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_s3_cognito-bucket.html)
+
+[Resolve error: DevTools failed to load SourceMap for webpack](https://stackoverflow.com/questions/61767538/devtools-failed-to-load-sourcemap-for-webpack-node-modules-js-map-http-e)
